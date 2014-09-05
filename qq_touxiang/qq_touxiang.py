@@ -16,8 +16,8 @@ for i in xrange(first, last):
     url = 'http://qlogo3.store.qq.com/qzone/'+qq+'/'+qq+'/100'
     response = urllib2.urlopen(url)
     image = response.read
-    #有的qq头像得到的是一个2050大小的空白图片，所以这里过滤掉一下
-    if len(image) > 2050:
+    #有的qq头像得到的是一个2055大小的空白图片，所以这里过滤掉一下
+    if len(image) > 2055):
         fileHandle = open(str(i)+'.jpg', 'w')
         fileHandle.write(image)
         fileHandle.close()
