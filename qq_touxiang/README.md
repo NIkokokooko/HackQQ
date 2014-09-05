@@ -4,7 +4,7 @@
 
 ### Python版本
 使用方法：
-下载[qq_touxiang.py](/qq_touxiang.py)
+下载[qq_touxiang.py](/qq_touxiang/qq_touxiang.py)
 命令格式：`python qq_touxiang.py 起始qq 终点qq `
 
 比如下载qq号从10000到20000之间的头像,使用`python qq_touxiang.py 10000 20000`
@@ -13,4 +13,4 @@
 *注意：*在本人的环境中sys.maxint=2147483647,所以最大qq号不能超过这个值，否则会报错。
 
 ### JavaScript版本
-下载[qq_touxiang.html](/qq_touxiang.html)，并用浏览器打开。
+下载[qq_touxiang.html](/qq_touxiang/qq_touxiang.html)，并用浏览器打开。
